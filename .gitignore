@@ -1,0 +1,27 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform cache
+.terraform/
+
+# Terraform plan files
+*.tfplan
+
+# Sensitive variable files
+*.tfvars
+
+# Crash logs
+crash.log
+
+# IDE files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SSH Keys
+*.pem
+terra-automate-key
+terra-automate-key.pub
