@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "website_bucket" {
   bucket = var.website_bucket_name
 
   tags = {
-    Name = "Portfolio Website Bucket"
+    Name = "Portfolio Website Bucket "
   }
 }
 
