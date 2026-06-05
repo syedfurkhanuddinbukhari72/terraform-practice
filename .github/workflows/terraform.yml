@@ -32,11 +32,6 @@ jobs:
       - name: Terraform Validate
         run: terraform validate
 
-      - name: Terraform Plan
-        run: terraform plan
-
-      - name: Terraform Apply
-        run: terraform apply -auto-approve
-
+        
       - name: Upload Website
         run: aws s3 sync website/ s3://syed-devops-portfolio-2026
