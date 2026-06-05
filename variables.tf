@@ -16,3 +16,7 @@ variable "instance_type" {
   default     = "t3.micro"
 }
 
+variable "website_bucket_name" {
+  description = "S3 bucket for static website hosting"
+  type        = string
+}
